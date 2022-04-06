@@ -17,8 +17,9 @@ img {
     padding: 10px;
 }
 
-.nav-links {
-    display: inline;
+.nav-links li {
+    display: inline-block;
+    width: 100px;
 }
 
 #licoes_aprendidas {
