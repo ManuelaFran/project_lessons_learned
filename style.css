@@ -1,8 +1,39 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: fantasy;
 }
 
 #cabecalho {
-    position: fixed;
+    position: static;
     top: 0;
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+
+img {
+    height: 180px;
+    width: 180px;
+    padding: 10px;
+}
+
+.nav-links {
+    display: inline;
+}
+
+#licoes_aprendidas {
+    display: inline-block;
+}
+
+#licoes_a_aprender {
+    display: inline-block;
+    padding: 20px;
+}
+
+#artigo {
+    padding: 20px;
+}
+
+#parte {
+    padding: 20px;
 }
